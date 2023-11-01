@@ -21,6 +21,3 @@ print(type(y))
 m = np.arange(1,10)**2
 print(m)
 
-if __name__ ==  'm':
-    print(timeit.timeit('m', setup="from m "))
-  

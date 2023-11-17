@@ -64,6 +64,7 @@ him = np.array([1,2,3,4,5],ndmin=5)
 print(him)
 print('Number of dimension : ',him.ndim)
 
+import numpy as np
 a = np.array([0,1,2,3,4,5])
 b = a.reshape(3,2)
 print(b)

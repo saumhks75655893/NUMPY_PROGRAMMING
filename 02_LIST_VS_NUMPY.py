@@ -6,7 +6,8 @@ import numpy as np
 import timeit
 
 #  ------------------------------------  NUMPY   Vs   LIST  : ----------------------------------- #
-
+''' Tradition list is slower than Numpy because it is developed using C language mostly and some in python language.
+'''
 # NumPy array : ----------
 x = np.array([1,2,3,4,5])
 print(x)

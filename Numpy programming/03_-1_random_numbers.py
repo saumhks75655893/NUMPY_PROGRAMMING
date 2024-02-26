@@ -4,21 +4,21 @@ import numpy as np
 
 ''' (i)->   rand() -----  '''
 
-# a = np.random.rand(4)
-# print(a)
+a = np.random.rand(4)
+print(a)
 
 
-# print()
-# a1 = np.random.rand(2,4)
-# print(a1)
+print()
+a1 = np.random.rand(2,4)
+print(a1)
 
 ''' (ii) -> randn() ------- '''
 
-# a = np.random.randn(4)
-# print(a)
+a = np.random.randn(4)
+print(a)
 
-# b = np.random.randn(2,4)
-# print(b)
+b = np.random.randn(2,4)
+print(b)
 
 ''' (iii) -> ranf() --------- ''' 
 

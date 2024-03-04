@@ -10,6 +10,15 @@ b = np.eye(4)
 print(b)
 print(b.shape)
 
+d = np.array([1,2,3,4],ndmin=4)
+print(d)
+print(d.shape)
+
+print(d.ndim)
+
+
+print()
+
 
 ''' 
 By using reshape 
@@ -24,3 +33,4 @@ b = a.reshape(4,4)
 print(a)
 print()
 print(b)
+
